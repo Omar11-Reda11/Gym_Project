@@ -1,0 +1,74 @@
+/* Utitility classes */
+.l-heading {
+    font-size: 2.5rem;
+    line-height: 1.2;
+}
+
+.lead {
+    font-size: 1rem;
+    line-height: 1.2;
+}
+
+
+/* Navbar */
+#navbar {
+    flex-direction: column;
+    padding-bottom: 1.5rem;
+
+}
+
+#navbar .logo {
+    margin-bottom: 1rem;
+}
+
+/* about*/
+#about .about-content
+{
+    display: block;
+    text-align: center;
+}
+#about .about-content img
+{
+    width:100%;
+    margin: 1rem 0 0 0;
+}
+
+/* programs */
+#programs .boxes
+{
+    display: block;
+}
+
+/* trainers */
+#trainers .trainer-boxes
+{
+    display: block;
+}
+
+/*   contact  */
+#contact
+{
+    flex-direction: column;
+    height: 1000px;
+}
+
+
+/* if max width: 500px */
+@media (max-width: 500px)
+{
+    #navbar ul {
+        display: block;
+        text-align: center;
+    }
+
+    #navbar ul li {
+        padding: 1rem;
+    }
+
+    #contact .contact-us .form-group
+    {
+        display: block;
+    }
+
+}
+

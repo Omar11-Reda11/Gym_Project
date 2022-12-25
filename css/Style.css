@@ -1,0 +1,140 @@
+/* Roboto Font */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  font-family: 'Roboto', sans-serif;
+  line-height: 1.6rem (/*16px*/);
+  color: #252A34;
+  line-height: 1.5;
+}
+
+a {
+  text-decoration: none;
+}
+.imgas
+{
+  border-radius: 100px;
+}
+.container {
+  max-width: 80%;
+  margin: auto;
+}
+
+.text-primary {
+  color: #FF2E63;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.bg-dark {
+  background-color: #252A34;
+  color: #fff;
+}
+
+.bg-light{
+  background-color: #EAEAEA;
+  color: #252A34;
+
+
+
+
+}
+#navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 7px;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    background-color:#252A34 ;
+    background: rgba(0, 0, 0, 0.7);
+
+  }
+  
+
+  
+  #navbar ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+  }
+  
+  #navbar ul li a {
+    padding: 20px;
+    color: rgb(255, 255, 255);
+  }
+  
+  #navbar ul li a:hover {
+    background-color: #6b09ec;
+    border-radius: 5px;
+    transition: .5s linear;
+  }
+  .l-heading
+  {
+font-size: 48px;
+text-transform: uppercase;
+  }
+  .m-heading{
+    font-size: 2rem;
+
+
+  }
+  .lead{
+    font-size: 1.5rem;
+
+  }
+  .py-1
+  {
+padding: 24px 0px;
+  }
+  .p-1
+  {
+    padding: 1.5rem 0;
+  }
+  .btn
+  {
+color: white;
+padding: 10px 10px 10px;
+background-color: rgb(72, 32, 252);
+border-radius: 6px;
+  }
+  .btn:hover
+  {
+    background-color: #FF2E63;
+    transition: .5s linear;
+  }
+
+  .box-shadow{
+    box-shadow: 0 0 2px #252A34;
+
+
+  }
+  #home
+  {
+background-image: url(../img/Tb.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center;
+height: 100vh;
+color: white;
+background-color: #252a34;
+  }
+  #home .showcase-content
+  {
+display: flex;
+flex-direction: column;
+text-align: center;
+align-items: center;
+justify-content: center;
+height: 100%;
+background-color:rgba(0, 0, 0, .8);  
+}
