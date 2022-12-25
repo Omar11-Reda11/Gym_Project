@@ -206,3 +206,28 @@ font-weight: 700;
   margin-bottom: 1.5rem;
 
 }
+/* Programs*/
+#programs{
+  color: #252A34;
+
+
+}
+#programs .boxes{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+#programs .boxes .box{
+  flex: 12;
+  padding: 20px 20px;
+
+}
+#programs .boxes .box img{
+  width: 80px;
+  background-color: #08D9D6;
+  padding: 0.5rem;
+  border-radius:100% ;
+
+}
