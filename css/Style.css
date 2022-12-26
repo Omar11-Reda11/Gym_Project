@@ -466,3 +466,48 @@ margin-top: 50px;
     justify-content: center;
     
   }
+
+
+/* Contact  */
+#contact {
+  display: flex;
+}
+.classs
+{
+  display: flex;
+justify-content: center;
+padding: 10px 10px 10px;
+font-size: 36px;
+font-weight: 600;
+}
+#contact .contact-us, 
+#contact .map {
+  flex: 1;
+  padding: 2rem/*16px*2*/;
+}
+
+#contact .contact-us input, 
+#contact .contact-us textarea {
+  width: 100%;
+  padding: 0.75rem;
+  border: none;
+  margin-bottom: 1rem;
+  outline: none;
+}
+
+#contact .contact-us .form-group {
+  display: flex;
+  
+}
+
+#contact .contact-us .form-group input[type="text"] {
+  margin-right: 0.75rem;
+  
+}
+
+.bg-primary
+{
+  background-color:skyblue;
+  color: rgb(19, 1, 119);
+  text-transform: uppercase;
+}
