@@ -137,10 +137,7 @@ align-items: center;
 justify-content: center;
 height: 100%;
 background-color:rgba(0, 0, 0, .8);  
-}
-
-
-/* section aboout*/
+}/* section aboout*/
 #about .about-content{
 
   display: flex;
@@ -185,7 +182,6 @@ color:initial;
 font-weight: 700;
 }
 
-
 /* section CTA*/
 #cta{
   background: url(../img/aass.jpg )  no-repeat center center/cover;
@@ -206,6 +202,7 @@ font-weight: 700;
   margin-bottom: 1.5rem;
 
 }
+
 /* Programs*/
 #programs{
   color: #252A34;
@@ -231,6 +228,7 @@ font-weight: 700;
   border-radius:100% ;
 
 }
+
 /* Trainers */
 #trainers .trainer-boxes {
   display: flex;
@@ -318,6 +316,7 @@ font-size: 22px;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 550;
   }
+
   /*  start plan  */
 .pricing_table{
   min-height: 100vh;
@@ -394,6 +393,53 @@ transition: .6s linear;
   background-color: blue;
   transition: .6s linear;
 }
+/* Training */
+#Training .Training-boxes {
+  display: flex;
+}
+
+#Training .Training-boxes .Training-box {
+  flex: 1;
+  background-color: #fff;
+  margin: 1rem;
+  border-radius: 5px;
+  padding: 1rem;
+
+}
+
+#Training .Training-boxes .Training-box video {
+  width: 100%;
+  display: block;
+  margin-bottom: 10px;
+}
+
+#Training .Training-boxes .Training-box ul {
+  display: flex;
+  list-style: none;
+}
+
+#Training .Training-boxes .Training-box ul li {
+  margin-right: 0.75rem;
+}
+
+#Training .Training-boxes .Training-box ul li a {
+  color: #252A34;
+  margin-right: 10px;
+}
+
+#Training .Training-boxes .Training-box ul li i:hover {
+  color: #FF2E63;
+}
+#Training .Training-boxes .imageee
+{
+
+display: inline;
+border-radius: 5px;
+height: 100px;
+}
+
+
+
 
 /*Appointment*/
 
